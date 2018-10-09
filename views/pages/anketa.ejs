@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <% include ../partials/head %>
+</head>
+<body>
+
+<div class="wrapper">
+  <header>
+    <% include ../partials/header %>
+  </header>
+
+    <div class="down-header">
+      <a class="main" href="../../index.html">Головна</a>
+      <span> / </span>
+      <a href="#">Кар'єра</a>
+      <span> / </span>
+      <a href="#">Вакансії</a>
+    </div>
+
+    <div class="wrapper-form">
+      <div class="header-form">
+        <h2 class="header-title">Заповни анкету та приєднуйся до нашої команди</h2>
+      </div>
+      <div class="content">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="logo-form">
+              <img src="img/career/form_kfc_logo.png" alt="">
+            </div>
+            <p class="paragraph-form">
+              Якщо комунікабельність, позитивність, відповідальність та енергійність – це про тебе, ласкаво просимо в нашу команду на стартову позицію члена команди ресторану, для якої не потрібен досвід!<br>
+              Ми обіцяємо цікаву роботу, приємну атмосферу, багато вражень та друзів. А якщо ти хочеш розвиватися та маєш організаторські здібності, сміливо розраховуй на кар'єрний ріст.<br>
+              Майбутнє – це зараз, і воно в твоїх руках.<br> Приєднуйся до нас!<br>
+            </p>
+            <a href="#" class="paragraph-form paragraph-form-about">Докладніше про вакансію</a>
+          </div>
+          <div class="col-md-6">
+            
+
+
+    <form class="form-horizontal"  method="post"  id="contact_form">
+<fieldset>
+
+<div class="form-group">
+  <label class="col-md-3 control-label">First Name</label>  
+  <div class="col-md-7 inputGroupContainer">
+  <div class="input-group">
+  <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+  <input  name="first_name" placeholder="First Name" class="form-control "  type="text">
+    </div>
+  </div>
+</div>
+
+<!-- Text input-->
+
+<div class="form-group">
+  <label class="col-md-3 control-label" >Last Name</label> 
+    <div class="col-md-7 inputGroupContainer">
+    <div class="input-group">
+  <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+  <input name="last_name" placeholder="Last Name" class="form-control"  type="text">
+    </div>
+  </div>
+</div>
+
+
+<div class="form-group"> 
+  <label class="col-md-3 control-label">State</label>
+    <div class="col-md-7 selectContainer">
+    <div class="input-group">
+        <span class="input-group-addon"><i class="glyphicon glyphicon-list"></i></span>
+    <select name="state" class="form-control selectpicker" >
+      <option value=" " >Please select your state</option>
+      <option>Alabama</option>
+      <option>Alaska</option>
+      <option >Arizona</option>
+      <option >Wyoming</option>
+    </select>
+  </div>
+</div>
+</div>
+<!-- Text input-->
+       <div class="form-group">
+  <label class="col-md-3 control-label">E-Mail</label>  
+    <div class="col-md-7 inputGroupContainer">
+    <div class="input-group">
+        <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
+  <input name="email" placeholder="E-Mail Address" class="form-control"  type="text">
+    </div>
+  </div>
+</div>
+
+
+<!-- Text input-->
+       
+<div class="form-group">
+  <label class="col-md-3 control-label">Phone #</label>  
+    <div class="col-md-7 inputGroupContainer">
+    <div class="input-group">
+        <span class="input-group-addon"><i class="glyphicon glyphicon-earphone"></i></span>
+  <input name="phone" placeholder="(845)555-1212" class="form-control" type="text">
+    </div>
+  </div>
+</div>
+
+
+<div class="form-group"> 
+  <label class="col-md-3 control-label">State</label>
+    <div class="col-md-7 selectContainer">
+    <div class="input-group">
+        <span class="input-group-addon"><i class="glyphicon glyphicon-list"></i></span>
+    <select name="state" class="form-control selectpicker" >
+      <option value=" " >Please select your state</option>
+      <option>Alabama</option>
+      <option>Alaska</option>
+      <option >Arizona</option>
+      <option >Wyoming</option>
+    </select>
+  </div>
+</div>
+</div>
+
+<!-- Text input-->
+ 
+<div class="form-group">
+  <label class="col-md-3 control-label">City</label>  
+    <div class="col-md-7 inputGroupContainer">
+    <div class="input-group">
+        <span class="input-group-addon"><i class="glyphicon glyphicon-home"></i></span>
+  <input name="city" placeholder="city" class="form-control"  type="text">
+    </div>
+  </div>
+</div>
+
+<!-- Select Basic -->
+   
+<div class="form-group"> 
+  <label class="col-md-3 control-label">State</label>
+    <div class="col-md-7 selectContainer">
+    <div class="input-group">
+        <span class="input-group-addon"><i class="glyphicon glyphicon-list"></i></span>
+    <select name="state" class="form-control selectpicker" >
+      <option value=" " >Please select your state</option>
+      <option>Alabama</option>
+      <option>Alaska</option>
+      <option >Arizona</option>
+      <option >Wyoming</option>
+    </select>
+  </div>
+</div>
+</div>
+
+<!-- Success message -->
+<div class="alert alert-success" role="alert" id="success_message">Success <i class="glyphicon glyphicon-thumbs-up"></i> Thanks for contacting us, we will get back to you shortly.</div>
+
+<!-- Button -->
+<div class="form-group">
+  <label class="col-md-3 control-label"></label>
+  <div class="col-md-7">
+    <button type="submit" class="btn btn-warning" >Send <span class="glyphicon glyphicon-send"></span></button>
+  </div>
+</div>
+
+</fieldset>
+</form>
+</div>
+              
+            <input type="checkbox" checked><span class="politics"> натискаючи кнопку «Далі», я підтверджую свою дієздатність, даю згоду на обробку своїх персональних даних та на отримання рекламно-інформаційних повідомлень від ТОВ «УКРАЇНСЬКА ХАРЧОВА КОМПАНІЯ» та ТОВ «ГЛОБАЛЬНА РЕСТОРАННА ГРУПА-УКРАЇНА» на наступних <a class="condition" href="#">умовах.</a></span>
+            </form>
+            <a class="button-form">Далі</a>
+          </div>
+        </div>
+      </div>
+    <footer>
+    <% include ../partials/footer %>
+  </footer>
+  </div>
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-validator/0.5.3/js/bootstrapValidator.min.js"></script>
+  <script src="js/common.js"></script>
+
+  </body>
+
+</html>
